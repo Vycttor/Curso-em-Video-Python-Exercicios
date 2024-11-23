@@ -12,11 +12,13 @@ cont =1
 numero = int(input('Informe o numero: '))
 
 while cont <= numero:
-
+    print(f'{cont} ' , end = '')
     fat *= cont
     #print(fat)
     cont += 1
     
-print(f'{numero}! = {fat}')    
-print('fim')
-  
+    
+print(f'{numero}! = {fat}', end = '')    
+
+
+
