@@ -9,6 +9,7 @@ Ex: 5! = 5x4x3x2x1 = 120
 fat = 1
 cont =1
 
+
 numero = int(input('Informe o numero: '))
 
 while cont <= numero:
