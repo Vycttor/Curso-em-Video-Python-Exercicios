@@ -8,12 +8,12 @@ while True:
     print('=='*25)
     t = int(input('Informe a tabuada que deseja: '))
     
-    if t == -2:
+    if t < 0:
         break
     for c in range(0,11):      
         #print(f'|{num} X {c}  = {resultato}|')
         print("{} X  {} = {} ".format(t,c, t*c))       
     print('=='*25)
-    print('**Iforme o próximo valor ou -2 para ENCERRAR')
+    print('**Iforme um valor negativo para ENCERRAR')
     
 print('Programa encerrado')

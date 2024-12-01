@@ -11,4 +11,4 @@ while True:
     soma = soma + numero
 
 print(f'Foram digitados {cont} números')
-print(f'A soma dos números é: {soma}')
+print(f'A soma dos números é: {soma}') 
