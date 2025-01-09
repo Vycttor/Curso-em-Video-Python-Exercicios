@@ -17,6 +17,8 @@ times_brasileirao_2019 = (
 
 ordem_alfabetica = sorted(times_brasileirao_2019)
 
+print('===='*15)
+print(f'Lista de times Campeonato Brasileiro 2019: {times_brasileirao_2019} ')
 print('\n')
 print('===='*15)
 print(f'Os 5 primeiros colocados são: {times_brasileirao_2019[0:5]}')
@@ -25,5 +27,6 @@ print(f'Os 4 ultimos colocados são: {times_brasileirao_2019[16:20]}')
 print('===='*15)
 print(f'Times em ordem alfabética: {ordem_alfabetica}')
 print('===='*15)
-print(f'A {times_brasileirao_2019[18]} encontra-se na 19º posição')
+#print(f'A {times_brasileirao_2019[18]} encontra-se na 19º posição')
+print(f'A Chapecoense encontra-se na {times_brasileirao_2019.index("Chapecoense")+1} posição')
 print('===='*15)
