@@ -8,7 +8,10 @@ print("\n")
 
 #Calculo convesão para centimetros
 centimetros = n1*100
-print("{:.2f} metros convertidos, equivale a: {:.0f} centimentos ".format(n1,centimetros))
+print(f'{n1:.2f} metros convertidos, equivale a: {centimetros:.0f} centimetros')
+#print("{:.2f} metros convertidos, equivale a: {:.0f} centimentos ".format(n1,centimetros))
 #Calculo convesão para milimetros
 milimetros = n1*1000
 print("{:.2f} metros convertidos, equivale a: {:.0f} milimetros ".format(n1,milimetros))
+
+
