@@ -3,6 +3,5 @@
 
 nome = input("Digite seu nome: ")
 print("\n")
-# Abaixo é possivel mostrar dois tipos de print diferente, onde o .format é a melhor opção.
-print("É um prazer te conhcerer! ",nome)
-print("É um prazer te conhecer, {} !".format(nome)) #format
+
+print(f'É um prazer te conhecer, {nome}!')
