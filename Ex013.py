@@ -12,7 +12,7 @@ def aumento(salario):
 print("PROGRAMA CALCULA O AUMENTO DE 15% DO SALÁRIO")
 print("\n")
 #Linha abaixo solicita para o usuario informar o salário.
-salario = float(input("Digite o valor do salário: "))
+salario = float(input("Digite o valor do salário: R$ "))
 print("\n")
 
 #Chama/invoca função que calcula aumento do salario
