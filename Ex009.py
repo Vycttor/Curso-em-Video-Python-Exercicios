@@ -9,7 +9,7 @@ print("\n")
 n1 = int(input("Digite o valor da tabuada desejada: "))
 print("\n")
 
-#Calculo do da tabuada sem o uso do IF/WHILE.
+#Calculo da tabuada sem o uso do IF/WHILE.
 print("A TABUADA DE {}".format(n1))
 print("\n")
 r1 = n1*1
