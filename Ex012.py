@@ -5,8 +5,7 @@
 produto = float(input("Digite o valor do produto: R$ "))
 print("\n")
 
-desconto = produto * 0.5
-produto_c_desconto = produto - desconto
+produto_c_desconto = produto - (produto * 0.5)
 
 print(f'O produto custa R$ {produto} reias')
 print(f'O preço do produto com desconto de 5% passa a custar R$ {produto_c_desconto:.2f}')
